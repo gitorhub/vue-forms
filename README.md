@@ -1,4 +1,9 @@
 # vue-forms
+```
+title: Vue forms github pages
+```
+
+[https://gitorhub.github.io/vue-forms/](https://gitorhub.github.io/vue-forms/)
 
 ## TO DEPLOY VUE PROJECT INTO GITHUB PAGES
 
