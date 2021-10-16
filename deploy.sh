@@ -1,19 +1,3 @@
-# vue-forms
-
-## TO DEPLOY VUE PROJECT INTO GITHUB PAGES
-
-### create a vue.config.js file
-
-```javascript
-module.exports = {
-    publicPath: "/vue-forms/"
-  }
-
-```
-
-### create a deploy.sh file
-
-```sh
 #!/usr/bin/env sh
 
 # abort on errors
@@ -39,18 +23,3 @@ git commit -m 'deploy'
  git push -f https://github.com/gitorhub/vue-forms.git main:gh-pages
 
 cd -
-
-```
-
-### in package.json add script
-
-```json
-    "deploy": "sh deploy.sh"
-```
-
-### then run command 
-
-```cmd
-npm run deploy
-
-```
